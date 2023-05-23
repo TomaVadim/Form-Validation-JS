@@ -1,0 +1,28 @@
+.form__button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60px;
+    background-color: #1d65a6;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 20px;
+    box-shadow: 0 5px 0 #284d6e;
+    transition: background-color 0.3s ease-in-out 0s;
+    position: relative;
+    top: 0;
+  
+    &:hover {
+      background-color: #15446d;
+    }
+  
+    &:active {
+      top: 3px;
+      box-shadow: 0 2px 0 #284d6e;
+    }
+  }

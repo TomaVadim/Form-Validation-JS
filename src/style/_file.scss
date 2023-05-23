@@ -1,0 +1,35 @@
+.file {
+}
+.file__item {
+  position: relative;
+}
+.file__input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  font-size: 0;
+  cursor: pointer;
+}
+.file__button {
+  margin-top: 10px;
+  letter-spacing: .5px;
+  display: inline-flex;
+  min-height: 40px;
+  border-radius: 30px;
+  justify-content: center;
+  align-items: center;
+  background-color: #1d65a6;
+  padding: 0px 20px;
+}
+.file__preview {
+  display: inline-flex;
+  max-width: 100px;
+  padding: 10px 0px 0px 0px;
+
+  & img {
+    max-width: 100%;
+  }
+}
